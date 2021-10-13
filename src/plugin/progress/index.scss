@@ -1,0 +1,34 @@
+.rprogress {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .rprogress_bar {
+        width: 0%;
+        height: 5px;
+        background: #333;
+    }
+
+    .loading {
+        transition: width ease-out 1s;
+    }
+}
+
+#nprogress {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate3d(-0.6%, 0px, 0px);
+
+    .nprogress_bar {
+        width: 0%;
+        height: 2px;
+        background: #29d;
+        box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+    }
+    .loading {
+        transition: width ease-out 1s;
+    }
+}

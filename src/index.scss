@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 200;
+    src: url("/fonts/HhyaU5sn9vOmLzlnC_W6EQ.c199e30.woff2") format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 200;
+    src: url(/fonts/HhyaU5sn9vOmLzlmC_W6EQ.3b5193f.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 200;
+    src: url(/fonts/HhyaU5sn9vOmLzloC_U.0307608.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/HhyaU5sn9vOmLzlnC_W6EQ.c199e30.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/HhyaU5sn9vOmLzlmC_W6EQ.3b5193f.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/HhyaU5sn9vOmLzloC_U.0307608.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/fonts/HhyaU5sn9vOmLzlnC_W6EQ.c199e30.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/fonts/HhyaU5sn9vOmLzlmC_W6EQ.3b5193f.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/fonts/HhyaU5sn9vOmLzloC_U.0307608.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/fonts/HhyaU5sn9vOmLzlnC_W6EQ.c199e30.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/fonts/HhyaU5sn9vOmLzlmC_W6EQ.3b5193f.woff2) format("woff2");
+}
+@font-face {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/fonts/HhyaU5sn9vOmLzloC_U.0307608.woff2) format("woff2");
+}
+
+body,
+a {
+    font-family: Dosis, Open Sans, pingfang SC, helvetica neue, arial, hiragino sans gb, microsoft yahei ui, microsoft yahei, simsun, sans-serif;
+}
+a,
+a:link,
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+body {
+    background: #f0f4f5;
+}
+#header {
+    background: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+
+    .container {
+        margin: 0 auto;
+        max-width: 960px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+    .logo {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: #666;
+
+        img {
+            height: 100%;
+            margin-right: 10px;
+        }
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+
+        .menu_item {
+            margin-right: 20px;
+        }
+        a {
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            word-spacing: 2px;
+        }
+    }
+    .menu_search {
+        cursor: pointer;
+    }
+}
+
+#banners {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 260px;
+    .banner {
+        height: 100%;
+    }
+}
+
+#footer {
+    background: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+    .line {
+        background: #f0f4f5;
+        height: 1px;
+        margin: 10px 0;
+    }
+    .box {
+        margin: 0 auto;
+        font-size: 13px;
+        width: 960px;
+        color: #555;
+    }
+    .copy {
+        font-size: 80%;
+    }
+    .logo {
+        height: 30px;
+        margin-right: 10px;
+    }
+    .solo {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+}
