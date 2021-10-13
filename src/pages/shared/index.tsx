@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.scss";
+import "particles.js";
+import { Cfg } from "./cfg";
 
 interface iState {
     showPop: boolean;
@@ -15,7 +17,7 @@ export default class SharedPage extends React.Component<any, iState> {
         const { showPop } = this.state;
         return (
             <div id="shared">
-                <div className="tuijian">
+                <div id="backjs" className="tuijian">
                     <button className="btn" onClick={this.showDownload}>
                         推荐应用
                     </button>
@@ -97,7 +99,9 @@ export default class SharedPage extends React.Component<any, iState> {
             </div>
         );
     }
-
+    componentDidMount() {
+        particlesJS("backjs", Cfg);
+    }
     //打开下载弹层
     showDownload = () => {
         this.setState({ showPop: true });

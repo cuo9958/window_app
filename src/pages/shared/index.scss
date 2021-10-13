@@ -3,9 +3,10 @@
     width: 960px;
 
     .tuijian {
-        height: 100px;
+        height: 200px;
         text-align: center;
-        line-height: 100px;
+        line-height: 200px;
+        position: relative;
 
         .btn {
             outline: none;
@@ -32,6 +33,12 @@
                 left: 0;
                 animation: ripple 1.3s cubic-bezier(0.29, -0.01, 0.17, 0.95) infinite;
             }
+        }
+        .particles-js-canvas-el {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
     }
 
